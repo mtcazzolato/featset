@@ -1,22 +1,43 @@
-
 # *FeatSet*: Visual features from open Image Datasets
 
-*Last Update: August 12, 2021.*
+*Last Update: September 6, 2021.*
 
-***FeatSet*** is a dataset with visual features (color, texture and shape) extracted from 13 open image datasets from the Literature. *FeatSet* provides support for different analysis involving machine learning, image analysis and content-based image retrieval (CBIR). Moreover, the dataset can serve for researchers that seek to solve problems related to the study of image features from different applications, such as emmergengy scenarios, medical cases, and object classificatior or recognition.
+***FeatSet*** is a dataset with visual features (color, texture, and shape) extracted from 13 open image datasets from the Literature. *FeatSet* supports different analyses involving machine learning, image analysis, and content-based image retrieval (CBIR). Moreover, the dataset can serve researchers seeking to solve problems related to the study of image features from different applications, such as emergency scenarios, medical cases, and object classification or recognition.
 
 ## Complete Description and Further Information
 
-The complete description of  *FeatSet* is given in the work [Work under review by the peers].
+The *FeatSet* database schema is the following:  
+
+![FeatSet database schema](https://github.com/mtcazzolato/featset/blob/master/schema.png)  
+  
+Each dataset in *FeatSet* follows the same schema, with (a) a metadata sable containing the object identifier (OID), the filename (which is the same as the public dataset), and the set of classes (if any). The set of FEM tables has the OID as a foreign key (FK), and every dimension of the feature vector is stored as a column.  
+  
+The complete description of  *FeatSet* is given in the work [Cazzolato *et al.*, 2021].  
 
 ## License Agreement and Citation Request:
 
-*FeatSet* is available for researches and data scientists under the GNU General Public License. In case of publication and/or public use of the available data, as well as any resource derived from it, one should acknowledge its creators by citing the **both the following paper and the paper from which the original images were acquired** (see the references in the datasets' description, as follows).
+*FeatSet* is available for researchers and data scientists under the GNU General Public License. In case of publication and/or public use of the available data, as well as any resource derived from it, one should acknowledge its creators by citing the **both the following paper and the paper from which the original images were acquired** (see the references in the datasets' description, as follows).
+  
+> [Cazzolato *et al.*, 2021] CAZZOLATO, M. T.;  SCABORA, L. C.;  ZABOT, G. F.; GUTIERREZ, M. A.; TRAINA-Jr, C.; TRAINA, A. J. M.. **A Compilation of Visual Features Extracted from Public Image Datasets.** In the Brazilian Symposium on Databases - Dataset Showcase Workshop (SBBD-DSW), Virtual Conference, Brazil. 2021. (to appear)
 
-WORK UNDER REVIEW BY THE PEERS
+Bibtex:
+```
+@inproceedings{CazzolatoEtAl2021,  
+      author = {Mirela T. Cazzolato and 
+                Lucas C. Scabora and  
+                Guilherme F. Zabot and  
+                Marco A. Gutierrez and  
+                Caetano Traina-Jr. and  
+                Agma J. M. Traina},
+      title = {FeatSet: A Compilation of Visual Features Extracted from Public Image Datasets},
+      booktitle = {Brazilian Symposium on Databases - Dataset Showcase Workshop (SBBD-DSW), Virtual, Brazil, October 4-8, 2021. (to appear)},
+      pages = {1--12},
+      year = {2021}
+}
+```
 
 ## Contact Information
-In case of any interest on collaborations or for further information, please contact us through the following emails:  
+In case of any interest in collaborations or for further information, please contact us through the following emails:  
 mtcazzolato *at* gmail *dot* com (Mirela Cazzolato)  
 agma *at* icmc *dot* usp *dot* br (Agma J. M. Traina)  
 
