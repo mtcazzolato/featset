@@ -8,7 +8,7 @@
 
 The *FeatSet* database schema is the following:  
 
-![FeatSet database schema](https://github.com/mtcazzolato/featset/blob/master/schema.png)  
+![FeatSet database schema](https://github.com/mtcazzolato/featset/blob/main/schema.png)  
   
 Each dataset in *FeatSet* follows the same schema, with (a) a metadata sable containing the object identifier (OID), the filename (which is the same as the public dataset), and the set of classes (if any). The set of FEM tables has the OID as a foreign key (FK), and every dimension of the feature vector is stored as a column.  
   
