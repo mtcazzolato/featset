@@ -10,13 +10,13 @@ The *FeatSet* database schema is the following:
 
 ![FeatSet database schema](https://github.com/mtcazzolato/featset/blob/main/schema.png)  
   
-Each dataset in *FeatSet* follows the same schema, with (a) a metadata sable containing the object identifier (OID), the filename (which is the same as the public dataset), and the set of classes (if any). The set of FEM tables has the OID as a foreign key (FK), and every dimension of the feature vector is stored as a column.  
+Each dataset in *FeatSet* follows the same schema, with (a) a metadata table containing the object identifier (OID), the filename (which is the same as the public dataset), and the set of classes (if any). The set of FEM tables has the OID as a foreign key (FK), and every dimension of the feature vector is stored as a column.  
   
 The complete description of  *FeatSet* is given in the work [Cazzolato *et al.*, 2021].  
 
 ## License Agreement and Citation Request:
 
-*FeatSet* is available for researchers and data scientists under the GNU General Public License. In case of publication and/or public use of the available data, as well as any resource derived from it, one should acknowledge its creators by citing the **both the following paper and the paper from which the original images were acquired** (see the references in the datasets' description, as follows).
+*FeatSet* is available for researchers and data scientists under the GNU General Public License. In case of publication and/or public use of the available data, as well as any resource derived from it, one should acknowledge its creators by citing **both the following paper and the paper from which the original images were acquired** (see the references in the datasets' description, as follows).
   
 > [Cazzolato *et al.*, 2021] CAZZOLATO, M. T.;  SCABORA, L. C.;  ZABOT, G. F.; GUTIERREZ, M. A.; TRAINA-Jr, C.; TRAINA, A. J. M.. **A Compilation of Visual Features Extracted from Public Image Datasets.** In the Brazilian Symposium on Databases - Dataset Showcase Workshop (SBBD-DSW), Virtual Conference, Brazil. 2021. (to appear)
 
